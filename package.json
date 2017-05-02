@@ -1,0 +1,31 @@
+{
+  "name": "tz-geo",
+  "version": "1.0.0",
+  "description": "timezone functions using a geojson file with global timezones",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node_modules/.bin/mocha test/ --timeout 30000 --reporter spec --bail test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeforeurope/tz-geo.git"
+  },
+  "keywords": [
+    "timezone",
+    "geojson",
+    "gps"
+  ],
+  "author": "Milo van der Linden",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/codeforeurope/tz-geo/issues"
+  },
+  "homepage": "https://github.com/codeforeurope/tz-geo#readme",
+  "dependencies": {
+    "jsts": "^1.4.0",
+    "moment-timezone": "^0.5.13"
+  },
+  "devDependencies": {
+    "mocha": "^3.3.0"
+  }
+}
