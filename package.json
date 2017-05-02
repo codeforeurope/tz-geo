@@ -1,6 +1,6 @@
 {
   "name": "tz-geo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "timezone functions using a geojson file with global timezones",
   "main": "index.js",
   "scripts": {
